@@ -14,10 +14,10 @@ const Dashboard: React.FC = () => {
 
     return(
         <div style={{paddingLeft:"6rem", paddingRight:"6rem"}}>
-            <h1>Welcome to Vybe</h1>
+            <h1>Welcome to Poke-saga</h1>
             <div>
                 <p>
-                    Vybe is a decentralized network for digital artists, powering the creator economy
+                    Poke Saga is a platform that allows you to mint rare pokemon cards and then trade them anywhere you like.
                 </p>
                 <p>
                     To login, connect with any of the below web3 wallets:

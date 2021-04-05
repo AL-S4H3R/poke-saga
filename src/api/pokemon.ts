@@ -11,5 +11,5 @@ export const getPokemonStats = async () => {
     const id = getRandomId()
     var res = await axios.get(`${pokeUrl}/pokemon/${id}`)
     console.log(res.data)
-    return res
+    return res.data
 }
